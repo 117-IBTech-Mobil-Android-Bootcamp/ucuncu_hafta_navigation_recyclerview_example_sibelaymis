@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_battle">Battle</string>
+    <string name="title_decks">Decklerim</string>
+    <string name="title_profile">Profile</string>
+    <string name="start_now">Şimdi Başla</string>
+    <string name="avatar_title">Kullanıcı adınızı oluşturun ve size uygun bir avatar seçin</string>
+    <string name="single_player">Tek Oyuncu</string>
+    <string name="user_level_number">Level 15</string>
+    <string name="user_score_text">Puan</string>
+    <string name="user_score_number">700</string>
+    <string name="what_is_decky">decky nedir?</string>
+    <string name="username">John Doe</string>
+    <string name="battle_textview">12</string>
+    <string name="success_text">Başarı</string>
+    <string name="success_textview">9</string>
+    <string name="follow_us">Bizi takip edin</string>
+</resources>

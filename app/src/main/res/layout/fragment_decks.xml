@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/decks_background"
+    tools:context=".ui.recyclerview.fragments.DecksFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_cloud1"
+        android:layout_marginEnd="@dimen/margin_end_cloud1"
+        android:src="@drawable/ic_vector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_cloud2"
+        android:layout_marginTop="@dimen/margin_top_cloud2"
+        android:src="@drawable/ic_vector__1_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/deck_view_empty_title_margin_top"
+        android:text="Empty State Title"
+        android:textSize="@dimen/deck_view_empty_title_size"
+        android:fontFamily="@font/fontsfree_net_sfprodisplay_heavy"
+        android:textColor="@color/pink_color"
+        android:id="@+id/decks_empty_text"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/decks_empty_text"
+        android:layout_marginTop="@dimen/view_margin_medium"
+        android:text="Empty State Title"
+        android:textSize="@dimen/deck_view_empty_state_size"
+        android:fontFamily="@font/fontsfree_net_sfprodisplay_medium"
+        android:textColor="@color/decks_explanation_textcolor"
+        android:id="@+id/decks_empty_text_explanation"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/decks_empty_text_explanation"
+        android:src="@drawable/ic_empty"
+        android:layout_marginTop="@dimen/view_margin_xlarge"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/avatar_view_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="@dimen/view_margin_large"
+    android:layout_marginEnd="@dimen/view_margin_large"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:text="@string/avatar_title"
+        android:textSize="@dimen/avatar_title_size"
+        android:fontFamily="@font/fontsfree_net_sfprodisplay_heavy"
+        android:layout_gravity="center"
+        tools:visibility="visible"
+        android:id="@+id/view_title"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_avatar01"
+        android:layout_gravity="center"
+        android:id="@+id/avatar_icon"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/view_margin_medium"
+        android:layout_height="@dimen/view_margin_medium"
+        android:src="@drawable/ic_success_outline"
+        android:layout_gravity="center"
+        android:id="@+id/checkbox_imageview"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

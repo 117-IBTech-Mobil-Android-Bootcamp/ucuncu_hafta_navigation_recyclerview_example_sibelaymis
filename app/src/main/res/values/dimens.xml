@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_margin_small">10dp</dimen>
+    <dimen name="view_margin_medium">20dp</dimen>
+    <dimen name="view_margin_large">30dp</dimen>
+    <dimen name="view_margin_xlarge">40dp</dimen>
+    <dimen name="view_margin_xxlarge">50dp</dimen>
+    <dimen name="view_margin_xxxlarge">60dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_top_cloud1">57.46dp</dimen>
+    <dimen name="margin_end_cloud1">109dp</dimen>
+    <dimen name="margin_top_cloud2">183dp</dimen>
+    <dimen name="margin_start_cloud2">38dp</dimen>
+    <dimen name="avatar_view_height">140dp</dimen>
+    <dimen name="deck_view_empty_title_margin_top">300dp</dimen>
+    <dimen name="battle_view_white_button_margin_start">215dp</dimen>
+    <dimen name="battle_view_white_button_margin_bottom">65dp</dimen>
+    <dimen name="battle_view_single_player_margin_bottom">15dp</dimen>
+    <dimen name="battle_view_single_player_avatar_margin_bottom">68dp</dimen>
+    <dimen name="battle_view_single_player_avatar_margin_start">12dp</dimen>
+    <dimen name="battle_view_ellipse4_margin_bottom">230dp</dimen>
+    <dimen name="battle_view_ellipse3_margin_bottom">150dp</dimen>
+    <dimen name="battle_view_ellipse3_margin_start">25dp</dimen>
+    <dimen name="battle_view_startnow_padding">16dp</dimen>
+    <dimen name="battle_view_pink_button_margin_start">215dp</dimen>
+    <dimen name="battle_view_pink_button_margin_top">15dp</dimen>
+    <dimen name="battle_view_multi_player_margin_top">15dp</dimen>
+    <dimen name="battle_view_ellipse9_margin_start">225dp</dimen>
+    <dimen name="battle_view_ellipse9_margin_top">53dp</dimen>
+    <dimen name="battle_view_multi_player_avatar_margin_start">12dp</dimen>
+    <dimen name="battle_view_multi_player_avatar_margin_top">38dp</dimen>
+    <dimen name="battle_view_progressbar_width">90dp</dimen>
+    <dimen name="battle_view_user_level_number_margin_top">16dp</dimen>
+    <dimen name="battle_view_level_margin_end">124dp</dimen>
+    <dimen name="battle_view_crown_margin_start">25dp</dimen>
+    <dimen name="battle_view_score_bar_margin_top">45dp</dimen>
+    <dimen name="battle_view_ellipse7_margin_top">93dp</dimen>
+    <dimen name="battle_view_ellipse10_margin_top">135dp</dimen>
+    <dimen name="profile_view_what_is_decky_margin_start">25dp</dimen>
+    <dimen name="profile_view_what_is_decky_margin_end">270dp</dimen>
+    <dimen name="profile_view_logout_margin_end">25dp</dimen>
+    <dimen name="profile_view_user_premium_margin_start">125dp</dimen>
+    <dimen name="profile_view_username_margin_top">6dp</dimen>
+    <dimen name="profile_view_edit_btn_margin_start">17dp</dimen>
+    <dimen name="profile_view_social_media_margin_top">7dp</dimen>
+
+    <!--font size -->
+    <dimen name="avatar_title_size">24sp</dimen>
+    <dimen name="deck_view_empty_title_size">32sp</dimen>
+    <dimen name="deck_view_empty_state_size">18sp</dimen>
+    <dimen name="battle_view_single_player_size">28sp</dimen>
+    <dimen name="battle_view_multi_player_size">28sp</dimen>
+    <dimen name="battle_view_user_level_number_size">14sp</dimen>
+    <dimen name="battle_view_user_score_text_size">14sp</dimen>
+    <dimen name="battle_view_user_score_number_size">18sp</dimen>
+    <dimen name="profile_view_what_is_decky_size">14sp</dimen>
+    <dimen name="profile_view_username_size">32sp</dimen>
+    <dimen name="profile_view_battle_text_size">16sp</dimen>
+    <dimen name="profile_view_battle_tv_number_size">32sp</dimen>
+    <dimen name="profile_view_success_tv_number_size">32sp</dimen>
+    <dimen name="profile_view_success_text_size">16sp</dimen>
+    <dimen name="profile_view_followus_text_size">16sp</dimen>
+
+
+</resources>

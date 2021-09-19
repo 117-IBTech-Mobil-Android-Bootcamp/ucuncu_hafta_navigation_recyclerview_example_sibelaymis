@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/battle_and_profile_gradient_background"
+    tools:context=".ui.recyclerview.fragments.ProfileFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ellipse_9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/battle_view_ellipse9_margin_start"
+        android:layout_marginTop="@dimen/battle_view_ellipse9_margin_top"
+        android:id="@+id/ellipse9"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ellipse_7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/view_margin_xlarge"
+        android:layout_marginTop="@dimen/battle_view_ellipse7_margin_top"
+        android:id="@+id/ellipse7"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ellipse_10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/view_margin_xxlarge"
+        android:layout_marginTop="@dimen/battle_view_ellipse10_margin_top"
+        android:id="@+id/ellipse10"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="@dimen/view_margin_xlarge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/rounded_tview_white"
+        android:text="@string/what_is_decky"
+        android:textSize="@dimen/profile_view_what_is_decky_size"
+        android:textColor="@color/default_text_color"
+        android:fontFamily="@font/fontsfree_net_sfprodisplay_heavy"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/view_margin_medium"
+        android:layout_marginStart="@dimen/profile_view_what_is_decky_margin_start"
+        android:layout_marginEnd="@dimen/profile_view_what_is_decky_margin_end"
+        android:id="@+id/what_is_decky"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_logout"
+        android:layout_marginTop="@dimen/view_margin_medium"
+        android:layout_marginEnd="@dimen/profile_view_logout_margin_end"
+        android:id="@+id/logout_iv"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_group_176"
+        android:layout_marginTop="@dimen/view_margin_xxxlarge"
+        android:id="@+id/user_avatar_iv"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/user_avatar_iv"
+        app:layout_constraintStart_toStartOf="@id/user_avatar_iv"
+        app:layout_constraintBottom_toBottomOf="@id/user_avatar_iv"
+        android:src="@drawable/ic_premium"
+        android:layout_marginStart="@dimen/profile_view_user_premium_margin_start"
+        android:id="@+id/user_premium"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_avatar_iv"
+        android:text="@string/username"
+        android:textSize="@dimen/profile_view_username_size"
+        android:fontFamily="@font/fontsfree_net_sfprodisplay_heavy"
+        android:textColor="@color/default_text_color"
+        android:layout_marginTop="@dimen/profile_view_username_margin_top"
+        android:id="@+id/username1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username1"
+        android:text="@string/username"
+        android:textSize="@dimen/profile_view_username_size"
+        android:fontFamily="@font/fontsfree_net_sfprodisplay_heavy"
+        android:textColor="@color/default_text_color"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:id="@+id/username2"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/username1"
+        app:layout_constraintTop_toTopOf="@id/username1"
+        android:src="@drawable/ic_edit"
+        android:layout_marginStart="@dimen/profile_view_edit_btn_margin_start"
+        android:id="@+id/edit_btn"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username2"
+        android:layout_marginTop="@dimen/view_margin_small"
+        android:id="@+id/score_table">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_battlebig"
+                android:id="@+id/battlebig_iv"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battle_textview"
+                android:textSize="@dimen/profile_view_battle_tv_number_size"
+                android:textColor="@color/pink_color"
+                android:fontFamily="@font/fontsfree_net_sfprodisplay_heavy"
+                android:id="@+id/battlebig_tv"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_battle"
+                android:textSize="@dimen/profile_view_battle_text_size"
+                android:textColor="@color/default_text_color"
+                android:fontFamily="@font/fontsfree_net_sfprodisplay_medium"
+                android:id="@+id/battle_text"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/view_margin_large">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_successbig"
+                android:id="@+id/successbig_iv"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/success_textview"
+                android:textSize="@dimen/profile_view_success_tv_number_size"
+                android:textColor="@color/green_color"
+                android:fontFamily="@font/fontsfree_net_sfprodisplay_heavy"
+                android:id="@+id/successbig_tv"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/success_text"
+                android:textSize="@dimen/profile_view_success_text_size"
+                android:textColor="@color/default_text_color"
+                android:fontFamily="@font/fontsfree_net_sfprodisplay_medium"
+                android:id="@+id/success_text"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/instagram_login"
+        app:layout_constraintTop_toBottomOf="@id/follow_us_tv"
+        android:layout_marginTop="@dimen/profile_view_social_media_margin_top"
+        android:src="@drawable/ic_linkedin"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:id="@+id/linkedin_login"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/linkedin_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/facebook_login"
+        app:layout_constraintTop_toBottomOf="@id/follow_us_tv"
+        android:layout_marginTop="@dimen/profile_view_social_media_margin_top"
+        android:src="@drawable/ic_instagram"
+        android:id="@+id/instagram_login"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/instagram_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/twitter_login"
+        app:layout_constraintTop_toBottomOf="@id/follow_us_tv"
+        android:layout_marginTop="@dimen/profile_view_social_media_margin_top"
+        android:src="@drawable/ic_facebooklogin"
+        android:id="@+id/facebook_login"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/facebook_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/follow_us_tv"
+        android:layout_marginTop="@dimen/profile_view_social_media_margin_top"
+        android:src="@drawable/ic_twitter"
+        android:id="@+id/twitter_login"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/score_table"
+        android:layout_marginTop="@dimen/view_margin_large"
+        android:text="@string/follow_us"
+        android:textSize="@dimen/profile_view_followus_text_size"
+        android:textColor="@color/default_text_color"
+        android:fontFamily="@font/fontsfree_net_sfprodisplay_medium"
+        android:id="@+id/follow_us_tv"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

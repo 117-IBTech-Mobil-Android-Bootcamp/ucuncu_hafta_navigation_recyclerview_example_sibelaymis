@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_battle">Battle</string>
+    <string name="title_decks">Decks</string>
+    <string name="title_profile">Profile</string>
+    <string name="start_now">Start Now</string>
+    <string name="avatar_title">Choose your username and an avatar that suits you</string>
+    <string name="single_player">Single Player</string>
+    <string name="user_level_number">Level 15</string>
+    <string name="user_score_text">Score</string>
+    <string name="user_score_number">700</string>
+    <string name="what_is_decky">what is decky?</string>
+    <string name="username">John Doe</string>
+    <string name="battle_textview">12</string>
+    <string name="success_text">Success</string>
+    <string name="success_textview">9</string>
+    <string name="follow_us">Follow us</string>
+
+</resources>
