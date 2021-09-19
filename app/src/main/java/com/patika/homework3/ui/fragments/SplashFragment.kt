@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.example.patikadev.utils.navigateFragment
 import com.patika.homework3.R
 import com.patika.homework3.base.BaseFragment
@@ -25,7 +26,7 @@ class SplashFragment : BaseFragment() {
 
             override fun onFinish() {
                 navigateFragment(R.id.action_splashFragment_to_navigation_home)
-
+                findNavController().popBackStack(R.id.splashFragment,true)
             }
         }.start()
     }
