@@ -16,5 +16,7 @@
     <string name="success_text">Success</string>
     <string name="success_textview">9</string>
     <string name="follow_us">Follow us</string>
+    <string name="empty_state_sub_word">empty state sub word</string>
+    <string name="empty_state_title">Empty State Title</string>
 
 </resources>

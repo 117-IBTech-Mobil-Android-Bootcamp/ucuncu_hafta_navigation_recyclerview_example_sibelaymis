@@ -42,7 +42,7 @@ fun Fragment.onBack() =
                 .setTitle("Uyarı")
                 .setMessage("Uygulamadan çıkmak istediğinize emin misiniz?")
                 .setCancelable(false)
-                .setNegativeButton("Evet") {dialog ,_ ->
+                .setNegativeButton("Evet") {_ ,_ ->
                     requireActivity().finish()
                 }
                 .setPositiveButton("Hayır") { dialog, _ ->
